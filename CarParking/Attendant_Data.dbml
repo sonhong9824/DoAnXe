@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Data121" Class="Attendant_DataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-7TC6IQE;Initial Catalog=Data121;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False" SettingsObjectName="CarParking.Properties.Settings" SettingsPropertyName="Data121ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Attendant" Member="Attendants">
+    <Type Name="Attendant">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[First Name]" Member="First_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Last Name]" Member="Last_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[Date of Birth]" Member="Date_of_Birth" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[Date Hired]" Member="Date_Hired" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[Salary base]" Member="Salary_base" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Phone Number]" Member="Phone_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
